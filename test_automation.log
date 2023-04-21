@@ -1,0 +1,166 @@
+2023-04-20 17:19:02,669 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 17:19:03,884 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 17:19:05,250 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-20 17:19:55,424 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 17:19:56,613 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 17:19:57,980 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-20 17:19:57,988 - support.logger - INFO - Clicking logo on search results page
+2023-04-20 17:19:57,988 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
+2023-04-20 17:19:57,996 - support.logger - INFO - Found by css selector 'a img.small-hide'
+2023-04-20 17:19:58,834 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-20 17:19:58,835 - support.logger - ERROR - 'WebDriver' object has no attribute 'getCurrentUrl'
+2023-04-20 17:20:50,891 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 17:20:52,067 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 17:20:53,433 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-20 17:20:53,434 - support.logger - INFO - Clicking logo on search results page
+2023-04-20 17:20:53,434 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
+2023-04-20 17:20:53,473 - support.logger - INFO - Found by css selector 'a img.small-hide'
+2023-04-20 17:20:54,058 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-20 17:20:54,058 - support.logger - ERROR - 'WebDriver' object has no attribute 'getCurrentUrl'
+2023-04-20 17:22:33,308 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 17:22:34,503 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 17:22:35,802 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-20 17:22:35,802 - support.logger - INFO - Clicking logo on search results page
+2023-04-20 17:22:35,802 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
+2023-04-20 17:22:35,810 - support.logger - INFO - Found by css selector 'a img.small-hide'
+2023-04-20 17:22:36,689 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-20 17:22:36,689 - support.logger - ERROR - 'WebDriver' object has no attribute 'getCurrentUrl'
+2023-04-20 17:28:08,733 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 17:28:09,916 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 17:28:11,563 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-20 17:28:11,563 - support.logger - INFO - Clicking logo on search results page
+2023-04-20 17:28:11,563 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
+2023-04-20 17:28:11,578 - support.logger - INFO - Found by css selector 'a img.small-hide'
+2023-04-20 17:28:12,567 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-20 17:28:12,568 - support.logger - ERROR - 'WebDriver' object has no attribute 'getCurrentUrl'
+2023-04-20 17:29:57,332 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 17:29:58,497 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 17:30:00,931 - support.logger - ERROR - 'WebDriver' object has no attribute 'getCurrentUrl'
+2023-04-20 21:15:17,873 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 21:15:19,084 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 21:15:19,290 - support.logger - ERROR - Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=112.0.5615.122)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00DAE3E3]
+	(No symbol) [0x00D43B31]
+	(No symbol) [0x00C54FE8]
+	(No symbol) [0x00C51537]
+	(No symbol) [0x00C48A75]
+	(No symbol) [0x00C49A4A]
+	(No symbol) [0x00C48D50]
+	(No symbol) [0x00C481A5]
+	(No symbol) [0x00C4813C]
+	(No symbol) [0x00C46E36]
+	(No symbol) [0x00C47598]
+	(No symbol) [0x00C56782]
+	(No symbol) [0x00CADD91]
+	(No symbol) [0x00C9B0BC]
+	(No symbol) [0x00CAD77C]
+	(No symbol) [0x00C9AEB6]
+	(No symbol) [0x00C77178]
+	(No symbol) [0x00C782DD]
+	GetHandleVerifier [0x01023D32+2505650]
+	GetHandleVerifier [0x010592A5+2724133]
+	GetHandleVerifier [0x0105DE3C+2743484]
+	GetHandleVerifier [0x00E55B30+612784]
+	(No symbol) [0x00D4C852]
+	(No symbol) [0x00D52128]
+	(No symbol) [0x00D5220B]
+	(No symbol) [0x00D5C9EB]
+	BaseThreadInitThunk [0x77390099+25]
+	RtlGetAppContainerNamedObjectPath [0x77E17B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77E17B3E+238]
+
+2023-04-20 21:15:51,881 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 21:15:53,072 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 21:15:53,276 - support.logger - ERROR - Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=112.0.5615.122)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00DAE3E3]
+	(No symbol) [0x00D43B31]
+	(No symbol) [0x00C54FE8]
+	(No symbol) [0x00C51537]
+	(No symbol) [0x00C48A75]
+	(No symbol) [0x00C49A4A]
+	(No symbol) [0x00C48D50]
+	(No symbol) [0x00C481A5]
+	(No symbol) [0x00C4813C]
+	(No symbol) [0x00C46E36]
+	(No symbol) [0x00C47598]
+	(No symbol) [0x00C56782]
+	(No symbol) [0x00CADD91]
+	(No symbol) [0x00C9B0BC]
+	(No symbol) [0x00CAD77C]
+	(No symbol) [0x00C9AEB6]
+	(No symbol) [0x00C77178]
+	(No symbol) [0x00C782DD]
+	GetHandleVerifier [0x01023D32+2505650]
+	GetHandleVerifier [0x010592A5+2724133]
+	GetHandleVerifier [0x0105DE3C+2743484]
+	GetHandleVerifier [0x00E55B30+612784]
+	(No symbol) [0x00D4C852]
+	(No symbol) [0x00D52128]
+	(No symbol) [0x00D5220B]
+	(No symbol) [0x00D5C9EB]
+	BaseThreadInitThunk [0x77390099+25]
+	RtlGetAppContainerNamedObjectPath [0x77E17B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77E17B3E+238]
+
+2023-04-20 21:16:13,483 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 21:16:14,669 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 21:16:17,142 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-20 21:16:17,143 - support.logger - INFO - Clicking logo on search results page
+2023-04-20 21:16:17,143 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
+2023-04-20 21:16:17,156 - support.logger - INFO - Found by css selector 'a img.small-hide'
+2023-04-20 21:16:17,866 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-20 21:18:39,202 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 21:18:40,375 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 21:18:41,818 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-20 21:18:41,819 - support.logger - INFO - Clicking logo on search results page
+2023-04-20 21:18:41,819 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
+2023-04-20 21:18:41,828 - support.logger - INFO - Found by css selector 'a img.small-hide'
+2023-04-20 21:18:42,331 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-20 21:19:33,888 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 21:19:35,068 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 21:19:37,997 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-20 21:19:37,998 - support.logger - INFO - Clicking logo on search results page
+2023-04-20 21:19:37,998 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
+2023-04-20 21:19:38,006 - support.logger - INFO - Found by css selector 'a img.small-hide'
+2023-04-20 21:19:38,561 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-20 21:20:11,682 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 21:20:12,851 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 21:20:14,295 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-20 21:20:14,295 - support.logger - INFO - Clicking logo on search results page
+2023-04-20 21:20:14,295 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
+2023-04-20 21:20:14,303 - support.logger - INFO - Found by css selector 'a img.small-hide'
+2023-04-20 21:20:14,789 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-20 21:23:25,634 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 21:23:26,822 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 21:23:28,870 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-20 21:23:28,870 - support.logger - INFO - Clicking logo on search results page
+2023-04-20 21:23:28,870 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
+2023-04-20 21:23:28,877 - support.logger - INFO - Found by css selector 'a img.small-hide'
+2023-04-20 21:23:29,647 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-20 21:25:31,986 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 21:25:33,156 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 21:25:34,792 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-20 21:25:34,793 - support.logger - INFO - Clicking logo on search results page
+2023-04-20 21:25:34,793 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
+2023-04-20 21:25:34,807 - support.logger - INFO - Found by css selector 'a img.small-hide'
+2023-04-20 21:25:35,524 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-20 21:26:01,714 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 21:26:02,902 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 21:26:05,326 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-20 21:26:05,327 - support.logger - INFO - Clicking logo on search results page
+2023-04-20 21:26:05,327 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
+2023-04-20 21:26:05,335 - support.logger - INFO - Found by css selector 'a img.small-hide'
+2023-04-20 21:26:06,069 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-20 21:26:37,265 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 21:26:38,447 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 21:26:40,972 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-20 21:26:40,973 - support.logger - INFO - Clicking logo on search results page
+2023-04-20 21:26:40,973 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
+2023-04-20 21:26:40,981 - support.logger - INFO - Found by css selector 'a img.small-hide'
+2023-04-20 21:26:41,635 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
