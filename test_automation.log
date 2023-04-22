@@ -164,3 +164,147 @@ Backtrace:
 2023-04-20 21:26:40,973 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
 2023-04-20 21:26:40,981 - support.logger - INFO - Found by css selector 'a img.small-hide'
 2023-04-20 21:26:41,635 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-20 22:04:18,546 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-20 22:04:19,746 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-20 22:04:21,193 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-20 22:04:21,194 - support.logger - INFO - Clicking logo on search results page
+2023-04-20 22:04:21,194 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
+2023-04-20 22:04:21,206 - support.logger - INFO - Found by css selector 'a img.small-hide'
+2023-04-20 22:04:22,201 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-22 15:46:55,706 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-22 15:46:56,964 - support.logger - INFO - Started step: <given "Open the Cureskin Application">
+2023-04-22 15:46:58,277 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-22 15:47:44,036 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-22 15:47:45,228 - support.logger - INFO - Started step: <given "Open the Cureskin Application">
+2023-04-22 15:47:46,332 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-22 15:47:46,333 - support.logger - INFO - Searching by css selector 'search-modal.header__search'...
+2023-04-22 15:47:46,344 - support.logger - INFO - Found by css selector 'search-modal.header__search'
+2023-04-22 15:47:46,406 - support.logger - INFO - Searching by id 'Search-In-Modal'...
+2023-04-22 15:47:46,475 - support.logger - INFO - Found by id 'Search-In-Modal'
+2023-04-22 15:47:46,617 - support.logger - INFO - Inputting text facewash
+2023-04-22 15:47:46,617 - support.logger - INFO - Searching by css selector 'button.predictive-search__item--term'...
+2023-04-22 15:47:47,057 - support.logger - INFO - Found by css selector 'button.predictive-search__item--term'
+2023-04-22 16:27:23,859 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-22 16:27:25,040 - support.logger - INFO - Started step: <given "Open the Cureskin Application">
+2023-04-22 16:27:27,522 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-22 16:27:27,522 - support.logger - INFO - Searching by css selector 'search-modal.header__search'...
+2023-04-22 16:27:27,530 - support.logger - INFO - Found by css selector 'search-modal.header__search'
+2023-04-22 16:27:27,588 - support.logger - INFO - Searching by id 'Search-In-Modal'...
+2023-04-22 16:27:27,631 - support.logger - INFO - Found by id 'Search-In-Modal'
+2023-04-22 16:27:27,778 - support.logger - INFO - Inputting text facewash
+2023-04-22 16:27:27,778 - support.logger - INFO - Searching by css selector 'button.predictive-search__item--term'...
+2023-04-22 16:27:28,226 - support.logger - INFO - Found by css selector 'button.predictive-search__item--term'
+2023-04-22 16:27:29,119 - support.logger - INFO - Started step: <when "Click on the product from Search Results">
+2023-04-22 16:27:29,119 - support.logger - INFO - Searching by css selector 'ul#product-grid li'...
+2023-04-22 16:27:29,128 - support.logger - INFO - Found by css selector 'ul#product-grid li'
+2023-04-22 16:27:30,059 - support.logger - INFO - Started step: <then "Verify UI elements present: image, price, reviews, quantity, add to cart, buy it now button">
+2023-04-22 16:27:30,059 - support.logger - INFO - Searching by ('css selector', 'media-gallery.product__media-gallery') 'None'...
+2023-04-22 16:27:30,163 - support.logger - ERROR - Message: invalid argument: 'using' must be a string
+  (Session info: chrome=112.0.5615.138)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x0044E3E3]
+	(No symbol) [0x003E3B31]
+	(No symbol) [0x002F4FE8]
+	(No symbol) [0x0032048C]
+	(No symbol) [0x0032059B]
+	(No symbol) [0x0034F062]
+	(No symbol) [0x0033B104]
+	(No symbol) [0x0034D77C]
+	(No symbol) [0x0033AEB6]
+	(No symbol) [0x00317178]
+	(No symbol) [0x003182DD]
+	GetHandleVerifier [0x006C3D32+2505650]
+	GetHandleVerifier [0x006F92A5+2724133]
+	GetHandleVerifier [0x006FDE3C+2743484]
+	GetHandleVerifier [0x004F5B30+612784]
+	(No symbol) [0x003EC852]
+	(No symbol) [0x003F2128]
+	(No symbol) [0x003F220B]
+	(No symbol) [0x003FC9EB]
+	BaseThreadInitThunk [0x77390099+25]
+	RtlGetAppContainerNamedObjectPath [0x77E17B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77E17B3E+238]
+
+2023-04-22 16:47:14,075 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-22 16:47:15,257 - support.logger - INFO - Started step: <given "Open the Cureskin Application">
+2023-04-22 16:47:16,606 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-22 16:47:16,606 - support.logger - INFO - Searching by css selector 'search-modal.header__search'...
+2023-04-22 16:47:16,615 - support.logger - INFO - Found by css selector 'search-modal.header__search'
+2023-04-22 16:47:16,677 - support.logger - INFO - Searching by id 'Search-In-Modal'...
+2023-04-22 16:47:16,740 - support.logger - INFO - Found by id 'Search-In-Modal'
+2023-04-22 16:47:16,876 - support.logger - INFO - Inputting text facewash
+2023-04-22 16:47:16,876 - support.logger - INFO - Searching by css selector 'button.predictive-search__item--term'...
+2023-04-22 16:47:17,329 - support.logger - INFO - Found by css selector 'button.predictive-search__item--term'
+2023-04-22 16:47:18,248 - support.logger - INFO - Started step: <when "Click on the product from Search Results">
+2023-04-22 16:47:18,248 - support.logger - INFO - Searching by css selector 'ul#product-grid li'...
+2023-04-22 16:47:18,263 - support.logger - INFO - Found by css selector 'ul#product-grid li'
+2023-04-22 16:47:19,081 - support.logger - INFO - Started step: <then "Verify UI elements present: image, price, reviews, quantity, add to cart, buy it now button">
+2023-04-22 16:47:19,082 - support.logger - INFO - Searching by ('css selector', 'modal-opener img') 'None'...
+2023-04-22 16:47:19,094 - support.logger - ERROR - Message: invalid argument: 'using' must be a string
+  (Session info: chrome=112.0.5615.138)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x0044E3E3]
+	(No symbol) [0x003E3B31]
+	(No symbol) [0x002F4FE8]
+	(No symbol) [0x0032048C]
+	(No symbol) [0x0032059B]
+	(No symbol) [0x0034F062]
+	(No symbol) [0x0033B104]
+	(No symbol) [0x0034D77C]
+	(No symbol) [0x0033AEB6]
+	(No symbol) [0x00317178]
+	(No symbol) [0x003182DD]
+	GetHandleVerifier [0x006C3D32+2505650]
+	GetHandleVerifier [0x006F92A5+2724133]
+	GetHandleVerifier [0x006FDE3C+2743484]
+	GetHandleVerifier [0x004F5B30+612784]
+	(No symbol) [0x003EC852]
+	(No symbol) [0x003F2128]
+	(No symbol) [0x003F220B]
+	(No symbol) [0x003FC9EB]
+	BaseThreadInitThunk [0x77390099+25]
+	RtlGetAppContainerNamedObjectPath [0x77E17B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77E17B3E+238]
+
+2023-04-22 16:50:47,152 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-22 16:50:48,322 - support.logger - INFO - Started step: <given "Open the Cureskin Application">
+2023-04-22 16:50:49,463 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-22 16:50:49,464 - support.logger - INFO - Searching by css selector 'search-modal.header__search'...
+2023-04-22 16:50:49,472 - support.logger - INFO - Found by css selector 'search-modal.header__search'
+2023-04-22 16:50:49,531 - support.logger - INFO - Searching by id 'Search-In-Modal'...
+2023-04-22 16:50:49,589 - support.logger - INFO - Found by id 'Search-In-Modal'
+2023-04-22 16:50:49,704 - support.logger - INFO - Inputting text facewash
+2023-04-22 16:50:49,704 - support.logger - INFO - Searching by css selector 'button.predictive-search__item--term'...
+2023-04-22 16:50:50,149 - support.logger - INFO - Found by css selector 'button.predictive-search__item--term'
+2023-04-22 16:50:51,035 - support.logger - INFO - Started step: <when "Click on the product from Search Results">
+2023-04-22 16:50:51,035 - support.logger - INFO - Searching by css selector 'ul#product-grid li'...
+2023-04-22 16:50:51,052 - support.logger - INFO - Found by css selector 'ul#product-grid li'
+2023-04-22 16:50:51,684 - support.logger - INFO - Started step: <then "Verify UI elements present: image, price, reviews, quantity, add to cart, buy it now button">
+2023-04-22 16:50:51,685 - support.logger - INFO - Searching by css selector 'modal-opener img'...
+2023-04-22 16:50:51,757 - support.logger - INFO - Found by css selector 'modal-opener img'
+2023-04-22 17:28:07,416 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-22 17:28:08,709 - support.logger - INFO - Started step: <given "Open the Cureskin Application">
+2023-04-22 17:28:11,211 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-22 17:28:11,211 - support.logger - INFO - Searching by css selector 'search-modal.header__search'...
+2023-04-22 17:28:11,231 - support.logger - INFO - Found by css selector 'search-modal.header__search'
+2023-04-22 17:28:11,294 - support.logger - INFO - Searching by id 'Search-In-Modal'...
+2023-04-22 17:28:11,380 - support.logger - INFO - Found by id 'Search-In-Modal'
+2023-04-22 17:28:11,491 - support.logger - INFO - Inputting text facewash
+2023-04-22 17:28:11,491 - support.logger - INFO - Searching by css selector 'button.predictive-search__item--term'...
+2023-04-22 17:28:11,938 - support.logger - INFO - Found by css selector 'button.predictive-search__item--term'
+2023-04-22 17:28:12,832 - support.logger - INFO - Started step: <when "Click on the product from Search Results">
+2023-04-22 17:28:12,832 - support.logger - INFO - Searching by css selector 'ul#product-grid li'...
+2023-04-22 17:28:12,844 - support.logger - INFO - Found by css selector 'ul#product-grid li'
+2023-04-22 17:28:13,680 - support.logger - INFO - Started step: <then "Verify UI elements present: image, price, reviews, quantity, add to cart, buy it now button">
+2023-04-22 17:28:13,680 - support.logger - INFO - Searching by css selector 'modal-opener img'...
+2023-04-22 17:28:13,770 - support.logger - INFO - Found by css selector 'modal-opener img'
+2023-04-22 17:28:13,770 - support.logger - INFO - Searching by css selector 'div.product__info-container div.price__sale'...
+2023-04-22 17:28:13,778 - support.logger - INFO - Found by css selector 'div.product__info-container div.price__sale'
+2023-04-22 17:28:13,778 - support.logger - INFO - Searching by css selector 'div.product__info-container div.jdgm-prev-badge'...
+2023-04-22 17:28:13,787 - support.logger - INFO - Found by css selector 'div.product__info-container div.jdgm-prev-badge'
+2023-04-22 17:28:13,787 - support.logger - INFO - Searching by css selector 'div.product__info-container button[type='submit']'...
+2023-04-22 17:28:13,795 - support.logger - INFO - Found by css selector 'div.product__info-container button[type='submit']'
+2023-04-22 17:28:13,795 - support.logger - INFO - Searching by css selector 'button[data-testid = Checkout-button]'...
+2023-04-22 17:28:13,805 - support.logger - INFO - Found by css selector 'button[data-testid = Checkout-button]'
