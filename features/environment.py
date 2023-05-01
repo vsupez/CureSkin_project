@@ -14,13 +14,13 @@ def browser_init(context, test_name):
     # s = Service('C:\\Users\\vsupe\QA\\Automation\\python-selenium-automation\\chromedriver')
     # context.driver = webdriver.Chrome(service=s)
 
-# Using Firefox with headless browser mode
-    options = webdriver.FirefoxOptions()
+    # Using Firefox with headless browser mode
+    options = Options()
     options.binary_location = r"C:\Program Files\Mozilla Firefox\firefox.exe"
-    s = Service('C:\\Users\\vsupe\\QA\\Automation\\python-selenium-automation\\geckodriver')
-    options.add_argument("--headless")
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--start-maximized")
+    options.add_argument('--headless')
+    s = Service('C:\\Users\\vsupe\\QA\\Automation\\python-selenium-automation\\geckodriver')
     context.driver = webdriver.Firefox(options=options, service=s)
 
 

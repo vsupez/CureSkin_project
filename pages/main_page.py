@@ -15,13 +15,13 @@ class MainPage(Page):
     LOGO = (By.CSS_SELECTOR, "a.header__heading-link.focus-inset")
 
     def open_main(self):
-        #headless
         self.open_url("https://shop.cureskin.com/")
 
     def search_for_product(self, text):
         self.click(*self.SEARCH)
         self.input_text(text, *self.SEARCH_BOX)
-        self.click(*self.SEARCH_BUTTON)
+        self.wait_for_element_click(*self.SEARCH_BUTTON)
+
 
 
     def verify_main_page_opened(self):

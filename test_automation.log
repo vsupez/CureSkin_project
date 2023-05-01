@@ -5954,3 +5954,55 @@ Backtrace:
 2023-04-30 21:46:12,022 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
 2023-04-30 21:46:16,332 - support.logger - INFO - Started step: <given "Open cureskin homepage">
 2023-04-30 21:46:17,783 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-05-01 07:39:47,811 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-05-01 07:39:52,193 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-05-01 07:39:53,635 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-05-01 07:39:54,014 - support.logger - INFO - Inputting text facewash
+2023-05-01 12:51:27,218 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-05-01 12:51:32,553 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-05-01 12:51:34,197 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-05-01 12:51:34,492 - support.logger - INFO - Inputting text facewash
+2023-05-01 12:51:59,602 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-05-01 12:52:00,799 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-05-01 12:52:01,881 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-05-01 12:52:02,141 - support.logger - INFO - Inputting text facewash
+2023-05-01 12:52:03,478 - support.logger - INFO - Started step: <when "Click on the product from Search Results">
+2023-05-01 12:52:03,479 - support.logger - INFO - Clicking on the first product
+2023-05-01 12:52:04,372 - support.logger - INFO - Started step: <then "Verify UI elements present: image, price, reviews, quantity, add to cart, buy it now button">
+2023-05-01 13:02:05,432 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-05-01 13:03:09,845 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-05-01 13:03:32,630 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-05-01 13:03:37,841 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-05-01 13:03:39,019 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-05-01 13:03:39,379 - support.logger - INFO - Inputting text facewash
+2023-05-01 13:10:24,975 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-05-01 13:10:30,065 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-05-01 13:10:30,911 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-05-01 13:10:31,257 - support.logger - INFO - Inputting text facewash
+2023-05-01 13:11:29,041 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-05-01 13:11:34,171 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-05-01 13:11:36,455 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-05-01 13:11:36,769 - support.logger - INFO - Inputting text facewash
+2023-05-01 13:14:57,502 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-05-01 13:15:02,818 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-05-01 13:15:04,344 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-05-01 13:15:04,629 - support.logger - INFO - Inputting text facewash
+2023-05-01 13:15:05,982 - support.logger - INFO - Started step: <when "Click on the product from Search Results">
+2023-05-01 13:15:05,982 - support.logger - INFO - Clicking on the first product
+2023-05-01 13:15:06,966 - support.logger - INFO - Started step: <then "Verify UI elements present: image, price, reviews, quantity, add to cart, buy it now button">
+2023-05-01 13:15:16,484 - support.logger - INFO - Started scenario:  Verify Price filter Functionality
+2023-05-01 13:15:21,656 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-05-01 13:15:22,570 - support.logger - INFO - Started step: <when "Click on Shop All section">
+2023-05-01 13:15:23,580 - support.logger - INFO - Started step: <when "Adjust the Price Filter such that there is a change in number of products">
+2023-05-01 13:15:29,206 - support.logger - INFO - Started step: <then "Verify that number of products changes">
+2023-05-01 13:15:29,217 - support.logger - INFO - Started step: <then "Verify that products displayed are within the Price filter">
+2023-05-01 13:15:40,770 - support.logger - INFO - Started scenario:  Verify Footer Links
+2023-05-01 13:15:46,020 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-05-01 13:15:47,382 - support.logger - INFO - Started step: <then "Identify the footer links: Terms of Service, Refund Policy, Privacy Policy, shipping policy and Verify each link navigates to correct pages">
+2023-05-01 13:16:15,753 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-05-01 13:16:20,105 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-05-01 13:16:21,187 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-05-01 13:16:21,576 - support.logger - INFO - Inputting text facewash
+2023-05-01 13:16:23,064 - support.logger - INFO - Started step: <when "Click on the product from Search Results">
+2023-05-01 13:16:23,065 - support.logger - INFO - Clicking on the first product
+2023-05-01 13:16:24,048 - support.logger - INFO - Started step: <then "Verify UI elements present: image, price, reviews, quantity, add to cart, buy it now button">
