@@ -5707,3 +5707,250 @@ Backtrace:
 	RtlGetAppContainerNamedObjectPath [0x77E17B6E+286]
 	RtlGetAppContainerNamedObjectPath [0x77E17B3E+238]
 
+2023-04-26 15:50:59,744 - support.logger - INFO - Started scenario:  Verify Footer Links
+2023-04-26 15:51:00,992 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-26 15:51:04,248 - support.logger - INFO - Started step: <then "Identify the footer links: Terms of Service, Refund Policy, Privacy Policy, shipping policy and Verify each link navigates to correct pages">
+2023-04-26 15:52:15,844 - support.logger - INFO - Started scenario:  Verify Footer Links
+2023-04-26 15:52:17,017 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-26 15:52:18,341 - support.logger - INFO - Started step: <then "Identify the footer links: Terms of Service, Refund Policy, Privacy Policy, shipping policy and Verify each link navigates to correct pages">
+2023-04-26 15:52:18,342 - support.logger - INFO - Searching by xpath '//footer-accordion[3]//a'...
+2023-04-26 15:52:18,353 - support.logger - INFO - Found by xpath '//footer-accordion[3]//a'
+2023-04-26 15:52:18,353 - support.logger - INFO - Searching by xpath '//footer-accordion[3]//a'...
+2023-04-26 15:52:18,358 - support.logger - INFO - Found by xpath '//footer-accordion[3]//a'
+2023-04-26 15:52:19,042 - support.logger - INFO - Searching by xpath '//div//h1'...
+2023-04-26 15:52:19,052 - support.logger - INFO - Found by xpath '//div//h1'
+2023-04-26 15:52:19,063 - support.logger - INFO - Searching by css selector 'a.header__heading-link.focus-inset'...
+2023-04-26 15:52:19,071 - support.logger - INFO - Found by css selector 'a.header__heading-link.focus-inset'
+2023-04-26 15:52:19,834 - support.logger - INFO - Searching by xpath '//footer-accordion[3]//a'...
+2023-04-26 15:52:19,840 - support.logger - INFO - Found by xpath '//footer-accordion[3]//a'
+2023-04-26 15:52:20,398 - support.logger - INFO - Searching by xpath '//div//h1'...
+2023-04-26 15:52:20,441 - support.logger - INFO - Found by xpath '//div//h1'
+2023-04-26 15:52:20,451 - support.logger - INFO - Searching by css selector 'a.header__heading-link.focus-inset'...
+2023-04-26 15:52:20,456 - support.logger - INFO - Found by css selector 'a.header__heading-link.focus-inset'
+2023-04-26 15:52:21,087 - support.logger - INFO - Searching by xpath '//footer-accordion[3]//a'...
+2023-04-26 15:52:21,099 - support.logger - INFO - Found by xpath '//footer-accordion[3]//a'
+2023-04-26 15:52:22,246 - support.logger - INFO - Searching by xpath '//div//h1'...
+2023-04-26 15:52:22,295 - support.logger - INFO - Found by xpath '//div//h1'
+2023-04-26 15:52:22,305 - support.logger - INFO - Searching by css selector 'a.header__heading-link.focus-inset'...
+2023-04-26 15:52:22,310 - support.logger - INFO - Found by css selector 'a.header__heading-link.focus-inset'
+2023-04-26 15:52:22,971 - support.logger - INFO - Searching by xpath '//footer-accordion[3]//a'...
+2023-04-26 15:52:23,024 - support.logger - INFO - Found by xpath '//footer-accordion[3]//a'
+2023-04-26 15:52:23,634 - support.logger - INFO - Searching by xpath '//div//h1'...
+2023-04-26 15:52:23,639 - support.logger - INFO - Found by xpath '//div//h1'
+2023-04-26 15:52:23,649 - support.logger - INFO - Searching by css selector 'a.header__heading-link.focus-inset'...
+2023-04-26 15:52:23,653 - support.logger - INFO - Found by css selector 'a.header__heading-link.focus-inset'
+2023-04-30 21:04:53,303 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-30 21:04:58,837 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-30 21:05:02,639 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-30 21:05:02,640 - support.logger - INFO - Clicking logo on search results page
+2023-04-30 21:05:02,640 - support.logger - INFO - Searching by css selector 'a img.small-hide'...
+2023-04-30 21:05:02,648 - support.logger - INFO - Found by css selector 'a img.small-hide'
+2023-04-30 21:05:03,146 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-30 21:05:14,165 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-30 21:05:18,556 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-30 21:05:20,090 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-30 21:05:20,090 - support.logger - INFO - Searching by css selector 'search-modal.header__search'...
+2023-04-30 21:05:20,098 - support.logger - INFO - Found by css selector 'search-modal.header__search'
+2023-04-30 21:05:24,140 - support.logger - ERROR - Message: element not interactable
+  (Session info: headless chrome=112.0.5615.138)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00D7DCE3+50899]
+	(No symbol) [0x00D0E111]
+	(No symbol) [0x00C15450]
+	(No symbol) [0x00C41846]
+	(No symbol) [0x00C394A5]
+	(No symbol) [0x00C5B8FC]
+	(No symbol) [0x00C38EC6]
+	(No symbol) [0x00C5BC54]
+	(No symbol) [0x00C6E01C]
+	(No symbol) [0x00C5B6F6]
+	(No symbol) [0x00C37708]
+	(No symbol) [0x00C3886D]
+	GetHandleVerifier [0x00FE3EAE+2566302]
+	GetHandleVerifier [0x010192B1+2784417]
+	GetHandleVerifier [0x0101327C+2759788]
+	GetHandleVerifier [0x00E15740+672048]
+	(No symbol) [0x00D18872]
+	(No symbol) [0x00D141C8]
+	(No symbol) [0x00D142AB]
+	(No symbol) [0x00D071B7]
+	BaseThreadInitThunk [0x754B0099+25]
+	RtlGetAppContainerNamedObjectPath [0x76FA7B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FA7B3E+238]
+
+2023-04-30 21:07:19,231 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-30 21:07:23,616 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-30 21:07:24,879 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-30 21:07:24,880 - support.logger - INFO - Searching by css selector 'search-modal.header__search'...
+2023-04-30 21:07:24,889 - support.logger - INFO - Found by css selector 'search-modal.header__search'
+2023-04-30 21:07:24,974 - support.logger - INFO - Searching by id 'Search-In-Modal'...
+2023-04-30 21:07:25,004 - support.logger - INFO - Found by id 'Search-In-Modal'
+2023-04-30 21:07:25,111 - support.logger - INFO - Inputting text facewash
+2023-04-30 21:07:25,111 - support.logger - INFO - Searching by css selector 'button.predictive-search__item--term'...
+2023-04-30 21:07:25,555 - support.logger - INFO - Found by css selector 'button.predictive-search__item--term'
+2023-04-30 21:07:26,568 - support.logger - INFO - Started step: <when "Click on the product from Search Results">
+2023-04-30 21:07:26,569 - support.logger - INFO - Clicking on the first product
+2023-04-30 21:07:26,569 - support.logger - INFO - Searching by css selector 'ul#product-grid li'...
+2023-04-30 21:07:26,604 - support.logger - INFO - Found by css selector 'ul#product-grid li'
+2023-04-30 21:07:27,572 - support.logger - INFO - Started step: <then "Verify UI elements present: image, price, reviews, quantity, add to cart, buy it now button">
+2023-04-30 21:07:27,573 - support.logger - INFO - Searching by css selector 'modal-opener img'...
+2023-04-30 21:07:27,611 - support.logger - INFO - Found by css selector 'modal-opener img'
+2023-04-30 21:07:27,611 - support.logger - INFO - Searching by css selector 'div.product__info-container div.price__sale'...
+2023-04-30 21:07:27,639 - support.logger - INFO - Found by css selector 'div.product__info-container div.price__sale'
+2023-04-30 21:07:27,639 - support.logger - INFO - Searching by css selector 'div.product__info-container div.jdgm-prev-badge'...
+2023-04-30 21:07:27,649 - support.logger - INFO - Found by css selector 'div.product__info-container div.jdgm-prev-badge'
+2023-04-30 21:07:27,649 - support.logger - INFO - Searching by css selector 'div.product__info-container button[type='submit']'...
+2023-04-30 21:07:27,657 - support.logger - INFO - Found by css selector 'div.product__info-container button[type='submit']'
+2023-04-30 21:07:27,657 - support.logger - INFO - Searching by css selector 'button[data-testid = Checkout-button]'...
+2023-04-30 21:07:27,723 - support.logger - INFO - Found by css selector 'button[data-testid = Checkout-button]'
+2023-04-30 21:08:51,396 - support.logger - INFO - Started scenario:  Verify Price filter Functionality
+2023-04-30 21:08:55,802 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-30 21:08:57,064 - support.logger - INFO - Started step: <when "Click on Shop All section">
+2023-04-30 21:08:57,065 - support.logger - INFO - Searching by css selector 'nav.cure_header a[href='/collections/all']'...
+2023-04-30 21:08:57,074 - support.logger - INFO - Found by css selector 'nav.cure_header a[href='/collections/all']'
+2023-04-30 21:08:57,779 - support.logger - INFO - Searching by css selector 'ul.pagination__list li'...
+2023-04-30 21:08:57,820 - support.logger - INFO - Found by css selector 'ul.pagination__list li'
+2023-04-30 21:08:57,820 - support.logger - INFO - Started step: <when "Adjust the Price Filter such that there is a change in number of products">
+2023-04-30 21:08:57,821 - support.logger - INFO - Searching by css selector 'div.is-lower'...
+2023-04-30 21:08:57,840 - support.logger - INFO - Found by css selector 'div.is-lower'
+2023-04-30 21:09:03,407 - support.logger - INFO - Started step: <then "Verify that number of products changes">
+2023-04-30 21:09:03,408 - support.logger - INFO - Searching by css selector 'ul.pagination__list li'...
+2023-04-30 21:09:03,417 - support.logger - INFO - Found by css selector 'ul.pagination__list li'
+2023-04-30 21:09:03,417 - support.logger - INFO - Started step: <then "Verify that products displayed are within the Price filter">
+2023-04-30 21:09:03,418 - support.logger - INFO - Searching by css selector 'div.is-lower'...
+2023-04-30 21:09:03,423 - support.logger - INFO - Found by css selector 'div.is-lower'
+2023-04-30 21:09:03,433 - support.logger - INFO - Searching by css selector 'div.is-upper'...
+2023-04-30 21:09:03,441 - support.logger - INFO - Found by css selector 'div.is-upper'
+2023-04-30 21:09:03,450 - support.logger - INFO - Searching by css selector 'div.collection ul li'...
+2023-04-30 21:09:03,459 - support.logger - INFO - Found by css selector 'div.collection ul li'
+2023-04-30 21:09:03,459 - support.logger - INFO - Searching by css selector 'ul#product-grid li'...
+2023-04-30 21:09:03,467 - support.logger - INFO - Found by css selector 'ul#product-grid li'
+2023-04-30 21:09:03,467 - support.logger - INFO - Searching by css selector 'bdi'...
+2023-04-30 21:09:03,475 - support.logger - INFO - Found by css selector 'bdi'
+2023-04-30 21:09:03,481 - support.logger - INFO - Searching by css selector 'bdi'...
+2023-04-30 21:09:03,488 - support.logger - INFO - Found by css selector 'bdi'
+2023-04-30 21:09:03,495 - support.logger - INFO - Searching by css selector 'bdi'...
+2023-04-30 21:09:03,503 - support.logger - INFO - Found by css selector 'bdi'
+2023-04-30 21:09:03,509 - support.logger - INFO - Searching by css selector 'bdi'...
+2023-04-30 21:09:03,518 - support.logger - INFO - Found by css selector 'bdi'
+2023-04-30 21:09:03,526 - support.logger - INFO - Searching by css selector 'bdi'...
+2023-04-30 21:09:03,534 - support.logger - INFO - Found by css selector 'bdi'
+2023-04-30 21:09:03,542 - support.logger - INFO - Searching by css selector 'bdi'...
+2023-04-30 21:09:03,550 - support.logger - INFO - Found by css selector 'bdi'
+2023-04-30 21:09:03,556 - support.logger - INFO - Searching by css selector 'bdi'...
+2023-04-30 21:09:03,564 - support.logger - INFO - Found by css selector 'bdi'
+2023-04-30 21:09:03,570 - support.logger - INFO - Searching by css selector 'bdi'...
+2023-04-30 21:09:03,578 - support.logger - INFO - Found by css selector 'bdi'
+2023-04-30 21:09:03,584 - support.logger - INFO - Searching by css selector 'li a.pagination__item--prev'...
+2023-04-30 21:09:03,591 - support.logger - INFO - Found by css selector 'li a.pagination__item--prev'
+2023-04-30 21:09:04,379 - support.logger - INFO - Searching by css selector 'ul#product-grid li'...
+2023-04-30 21:09:04,400 - support.logger - INFO - Found by css selector 'ul#product-grid li'
+2023-04-30 21:09:04,400 - support.logger - INFO - Searching by css selector 'bdi'...
+2023-04-30 21:09:04,410 - support.logger - INFO - Found by css selector 'bdi'
+2023-04-30 21:09:04,417 - support.logger - INFO - Searching by css selector 'bdi'...
+2023-04-30 21:09:04,424 - support.logger - INFO - Found by css selector 'bdi'
+2023-04-30 21:09:04,431 - support.logger - INFO - Searching by css selector 'li a.pagination__item--prev'...
+2023-04-30 21:09:08,437 - support.logger - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"li a.pagination__item--prev"}
+  (Session info: headless chrome=112.0.5615.138)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00D7DCE3+50899]
+	(No symbol) [0x00D0E111]
+	(No symbol) [0x00C15588]
+	(No symbol) [0x00C408F9]
+	(No symbol) [0x00C40AFB]
+	(No symbol) [0x00C6F902]
+	(No symbol) [0x00C5B944]
+	(No symbol) [0x00C6E01C]
+	(No symbol) [0x00C5B6F6]
+	(No symbol) [0x00C37708]
+	(No symbol) [0x00C3886D]
+	GetHandleVerifier [0x00FE3EAE+2566302]
+	GetHandleVerifier [0x010192B1+2784417]
+	GetHandleVerifier [0x0101327C+2759788]
+	GetHandleVerifier [0x00E15740+672048]
+	(No symbol) [0x00D18872]
+	(No symbol) [0x00D141C8]
+	(No symbol) [0x00D142AB]
+	(No symbol) [0x00D071B7]
+	BaseThreadInitThunk [0x754B0099+25]
+	RtlGetAppContainerNamedObjectPath [0x76FA7B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FA7B3E+238]
+
+2023-04-30 21:09:13,146 - support.logger - INFO - Started scenario:  Verify Footer Links
+2023-04-30 21:09:17,541 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-30 21:09:18,620 - support.logger - INFO - Started step: <then "Identify the footer links: Terms of Service, Refund Policy, Privacy Policy, shipping policy and Verify each link navigates to correct pages">
+2023-04-30 21:09:18,620 - support.logger - INFO - Searching by xpath '//footer-accordion[3]//a'...
+2023-04-30 21:09:18,632 - support.logger - INFO - Found by xpath '//footer-accordion[3]//a'
+2023-04-30 21:09:18,632 - support.logger - INFO - Searching by xpath '//footer-accordion[3]//a'...
+2023-04-30 21:09:18,638 - support.logger - INFO - Found by xpath '//footer-accordion[3]//a'
+2023-04-30 21:09:19,293 - support.logger - INFO - Searching by xpath '//div//h1'...
+2023-04-30 21:09:19,328 - support.logger - INFO - Found by xpath '//div//h1'
+2023-04-30 21:09:19,342 - support.logger - INFO - Searching by css selector 'a.header__heading-link.focus-inset'...
+2023-04-30 21:09:19,362 - support.logger - INFO - Found by css selector 'a.header__heading-link.focus-inset'
+2023-04-30 21:09:19,819 - support.logger - INFO - Searching by xpath '//footer-accordion[3]//a'...
+2023-04-30 21:09:19,858 - support.logger - INFO - Found by xpath '//footer-accordion[3]//a'
+2023-04-30 21:09:20,476 - support.logger - INFO - Searching by xpath '//div//h1'...
+2023-04-30 21:09:20,496 - support.logger - INFO - Found by xpath '//div//h1'
+2023-04-30 21:09:20,507 - support.logger - INFO - Searching by css selector 'a.header__heading-link.focus-inset'...
+2023-04-30 21:09:20,512 - support.logger - INFO - Found by css selector 'a.header__heading-link.focus-inset'
+2023-04-30 21:09:20,976 - support.logger - INFO - Searching by xpath '//footer-accordion[3]//a'...
+2023-04-30 21:09:21,006 - support.logger - INFO - Found by xpath '//footer-accordion[3]//a'
+2023-04-30 21:09:21,607 - support.logger - INFO - Searching by xpath '//div//h1'...
+2023-04-30 21:09:21,614 - support.logger - INFO - Found by xpath '//div//h1'
+2023-04-30 21:09:21,636 - support.logger - INFO - Searching by css selector 'a.header__heading-link.focus-inset'...
+2023-04-30 21:09:21,643 - support.logger - INFO - Found by css selector 'a.header__heading-link.focus-inset'
+2023-04-30 21:09:22,167 - support.logger - INFO - Searching by xpath '//footer-accordion[3]//a'...
+2023-04-30 21:09:22,181 - support.logger - INFO - Found by xpath '//footer-accordion[3]//a'
+2023-04-30 21:09:22,747 - support.logger - INFO - Searching by xpath '//div//h1'...
+2023-04-30 21:09:22,773 - support.logger - INFO - Found by xpath '//div//h1'
+2023-04-30 21:09:22,787 - support.logger - INFO - Searching by css selector 'a.header__heading-link.focus-inset'...
+2023-04-30 21:09:22,798 - support.logger - INFO - Found by css selector 'a.header__heading-link.focus-inset'
+2023-04-30 21:12:00,101 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-30 21:12:05,633 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-30 21:12:07,655 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-30 21:12:07,655 - support.logger - INFO - Clicking logo on search results page
+2023-04-30 21:12:08,623 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-30 21:15:16,906 - support.logger - INFO - Started scenario:  Top logo takes to the main page
+2023-04-30 21:15:21,213 - support.logger - INFO - Started step: <given "Open search results page Search: 18 results found for "cure"">
+2023-04-30 21:15:22,910 - support.logger - INFO - Started step: <when "Click on CureSkin logo in the header">
+2023-04-30 21:15:22,910 - support.logger - INFO - Clicking logo on search results page
+2023-04-30 21:15:23,444 - support.logger - INFO - Started step: <then "Verify user is taken to the main page">
+2023-04-30 21:15:34,224 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-30 21:15:38,548 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-30 21:15:39,814 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-30 21:15:40,129 - support.logger - INFO - Inputting text facewash
+2023-04-30 21:19:22,562 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-30 21:19:26,877 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-30 21:19:28,821 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-30 21:19:29,099 - support.logger - INFO - Inputting text facewash
+2023-04-30 21:23:54,780 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-30 21:23:59,189 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-30 21:24:00,475 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-30 21:24:00,792 - support.logger - INFO - Inputting text facewash
+2023-04-30 21:25:55,762 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-30 21:26:00,118 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-30 21:26:01,470 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-30 21:26:01,769 - support.logger - INFO - Inputting text facewash
+2023-04-30 21:27:25,111 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-30 21:27:29,385 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-30 21:27:30,892 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-30 21:27:31,221 - support.logger - INFO - Inputting text facewash
+2023-04-30 21:30:19,683 - support.logger - INFO - Started scenario:  Verify Footer Links
+2023-04-30 21:30:24,192 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-30 21:30:25,509 - support.logger - INFO - Started step: <then "Identify the footer links: Terms of Service, Refund Policy, Privacy Policy, shipping policy and Verify each link navigates to correct pages">
+2023-04-30 21:30:32,699 - support.logger - INFO - Started scenario:  Verify Price filter Functionality
+2023-04-30 21:30:37,085 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-30 21:30:38,333 - support.logger - INFO - Started step: <when "Click on Shop All section">
+2023-04-30 21:30:38,889 - support.logger - INFO - Started step: <when "Adjust the Price Filter such that there is a change in number of products">
+2023-04-30 21:42:12,767 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-30 21:42:17,174 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-30 21:42:18,592 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-30 21:42:18,920 - support.logger - INFO - Inputting text facewash
+2023-04-30 21:45:16,984 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-30 21:45:21,276 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-30 21:45:23,213 - support.logger - INFO - Started step: <when "Search for facewash">
+2023-04-30 21:46:12,022 - support.logger - INFO - Started scenario:  User can verify UI elements on a Product Results Page
+2023-04-30 21:46:16,332 - support.logger - INFO - Started step: <given "Open cureskin homepage">
+2023-04-30 21:46:17,783 - support.logger - INFO - Started step: <when "Search for facewash">

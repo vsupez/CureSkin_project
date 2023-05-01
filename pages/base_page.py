@@ -20,6 +20,7 @@ class Page:
         return self.driver.find_elements(*locator)
 
     def click(self, *locator):
+        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         self.driver.find_element(*locator).click()
 
     def input_text(self, text, *locator):

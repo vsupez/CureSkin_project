@@ -2,11 +2,6 @@ from selenium.webdriver.common.by import By
 from behave import given, when, then
 
 
-@given("Open  cureskin homepage")
-def open_cureskin(context):
-    context.app.main_page.open_main()
-
-
 @given("Open search results page Search: 18 results found for {search_word}")
 def open_search_results_page(context, search_word):
     context.driver.get("https://shop.cureskin.com/search?q=cure")
@@ -17,19 +12,11 @@ def click_logo(context):
     context.app.search_results.click_logo()
 
 
-@when("Search for {text}")
-def search_for_product(context, text):
-    context.app.main_page.search_for_product(text)
 
 
 @when("Click on the product from Search Results")
 def click_on_product(context):
     context.app.search_results.click_on_product()
-
-
-@when("Click on Shop All section")
-def click_shop_all(context):
-    context.app.main_page.click_shop_all()
 
 
 @when("Adjust the Price Filter such that there is a change in number of products")
