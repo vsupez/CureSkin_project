@@ -15,6 +15,7 @@ class MainPage(Page):
     LOGO = (By.CSS_SELECTOR, "a.header__heading-link.focus-inset")
 
     def open_main(self):
+        #headless
         self.open_url("https://shop.cureskin.com/")
 
     def search_for_product(self, text):
@@ -36,6 +37,7 @@ class MainPage(Page):
         print(f"Previous range product pages are {pages}")
 
     def verify_footer_links(self):
+        # headless
         footer_links = self.find_elements(*self.FOOTER_LN)
         link_count = len(footer_links)
 

@@ -11,31 +11,38 @@ def browser_init(context, test_name):
     """
     :param context: Behave context
     """
-    s = Service('C:\\Users\\vsupe\QA\\Automation\\python-selenium-automation\\chromedriver')
+    # s = Service('C:\\Users\\vsupe\QA\\Automation\\python-selenium-automation\\chromedriver')
     # context.driver = webdriver.Chrome(service=s)
 
-    # options = Options()
-    # options.binary_location = r"C:\Program Files\Mozilla Firefox\firefox.exe"
-    # s = Service('C:\\Users\\vsupe\\QA\\Automation\\python-selenium-automation\\geckodriver')
-    # context.driver = webdriver.Firefox(options=options, service=s)
+# Using Firefox with headless browser mode
+    options = webdriver.FirefoxOptions()
+    options.binary_location = r"C:\Program Files\Mozilla Firefox\firefox.exe"
+    s = Service('C:\\Users\\vsupe\\QA\\Automation\\python-selenium-automation\\geckodriver')
+    options.add_argument("--headless")
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--start-maximized")
+    context.driver = webdriver.Firefox(options=options, service=s)
+
+
+    # Using Chrome with Headless Browser mode
+    options = webdriver.ChromeOptions()
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--start-maximized")
+    options.add_argument('--headless')
+    context.driver = webdriver.Chrome(chrome_options=options, service=s)
 
     # context.browser = webdriver.Safari()
     # context.browser = webdriver.Firefox()
 
-    # #Headless Browser mode
-    # options = webdriver.ChromeOptions()
-    # options.add_argument('--headless')
-    # context.driver = webdriver.Chrome(chrome_options=options,service=s)
-
     ### EventFiringWebDriver - log file ###
     ### for drivers ###
-    context.driver = EventFiringWebDriver(
-        webdriver.Chrome(service=s),
-        MyListener()
-    )
+    # context.driver = EventFiringWebDriver(
+    #     webdriver.Chrome(service=s),
+    #     MyListener()
+    # )
 
     # for headless mode ###
-    # context.driver = EventFiringWebDriver(webdriver.Chrome(chrome_options = options), MyListener())
+    # context.driver = EventFiringWebDriver(webdriver.Chrome(chrome_options=options), MyListener())
 
     # -------------------------------------------------------------------------------------------------------
     # for browerstack ###
@@ -58,6 +65,7 @@ def browser_init(context, test_name):
     context.driver.implicitly_wait(4)
     context.driver.wait = WebDriverWait(context.driver, 10)
     context.app = Application(driver=context.driver)
+
 
 
 def before_scenario(context, scenario):
