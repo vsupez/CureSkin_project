@@ -15,21 +15,21 @@ def browser_init(context, test_name):
     # context.driver = webdriver.Chrome(service=s)
 
     # Using Firefox with headless browser mode
-    options = Options()
-    options.binary_location = r"C:\Program Files\Mozilla Firefox\firefox.exe"
-    options.add_argument("--window-size=1920,1080")
-    options.add_argument("--start-maximized")
-    options.add_argument('--headless')
-    s = Service('C:\\Users\\vsupe\\QA\\Automation\\python-selenium-automation\\geckodriver')
-    context.driver = webdriver.Firefox(options=options, service=s)
+    # options = Options()
+    # options.binary_location = r"C:\Program Files\Mozilla Firefox\firefox.exe"
+    # options.add_argument("--window-size=1920,1080")
+    # options.add_argument("--start-maximized")
+    # options.add_argument('--headless')
+    # s = Service('C:\\Users\\vsupe\\QA\\Automation\\python-selenium-automation\\geckodriver')
+    # context.driver = webdriver.Firefox(options=options, service=s)
 
 
     # Using Chrome with Headless Browser mode
-    options = webdriver.ChromeOptions()
-    options.add_argument("--window-size=1920,1080")
-    options.add_argument("--start-maximized")
-    options.add_argument('--headless')
-    context.driver = webdriver.Chrome(chrome_options=options, service=s)
+    # options = webdriver.ChromeOptions()
+    # options.add_argument("--window-size=1920,1080")
+    # options.add_argument("--start-maximized")
+    # options.add_argument('--headless')
+    # context.driver = webdriver.Chrome(chrome_options=options, service=s)
 
     # context.browser = webdriver.Safari()
     # context.browser = webdriver.Firefox()
@@ -47,19 +47,19 @@ def browser_init(context, test_name):
     # -------------------------------------------------------------------------------------------------------
     # for browerstack ###
     # Register for BrowserStack, then grab it from https://www.browserstack.com/accounts/settings
-    # bs_user = ''
-    # bs_key = ''
-    #
-    # desired_cap = {
-    #     'browserName': 'Firefox',
-    #     'bstack:options': {
-    #         'os': 'Windows',
-    #         'osVersion': '10',
-    #         'sessionName': test_name
-    #     }
-    # }
-    # url = f'http://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
-    # context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
+    bs_user = 'varshasupe_3b92ED'
+    bs_key = 'FR7XEARAvYRmLu56hsZa'
+
+    desired_cap = {
+        'browserName': 'Firefox',
+        'bstack:options': {
+            'os': 'OS X',
+            'osVersion': 'Big Sur',
+            'sessionName': test_name
+        }
+    }
+    url = f'http://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
+    context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
     # -------------------------------------------------------------------------------------------------------
     context.driver.maximize_window()
     context.driver.implicitly_wait(4)
